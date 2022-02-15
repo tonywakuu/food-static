@@ -1,0 +1,5 @@
+steps:
+- name: gcr.io/foodaround-we/home-build:latest
+- name: gcr.io/cloud-builders/gcloud
+  entrypoint: gsutil
+  args: ["-m", "rsync", "-r", "-c", "-d", "/workspace/_site", "gs://foodaround.info"]
