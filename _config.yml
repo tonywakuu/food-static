@@ -121,6 +121,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - [vendor]
 
 collections:
   pages:
