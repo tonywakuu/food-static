@@ -129,3 +129,5 @@ collections:
 
 # Markdown rendering
 markdown: kramdown
+
+theme: jekyll-theme-minimal
